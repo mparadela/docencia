@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .done{
+            text-decoration: line-through;
+            color: gray !important; 
+        }
+    </style>
+    <style>
+        .copia {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gestor de tareas</h1>
+    <div id ="app">
+        <input type="text" id="tarea" placeholder="Escribe una tarea..."/>
+        <button id = "addBtn">Añadir tarea</button>
+        <ul id="lista"></ul>
+
+        <hr>
+        <h3>Funciones avanzadas</h3>
+        <div>
+            <input id="referencia" placeholder="Despues de (texto de tarea)">
+            <input id="nueva" placeholder="Nueva tarea">
+            <button id="insertarBtn">Insertar detrás</button>
+        </div>
+        <div>
+            <input id="palabra" placeholder="Palabra a buscar">
+            <input id="nuevaMulti" placeholder="Texto de la nueva tarea">
+            <button id="insertarMulti">Insertar detrás de todas</button>
+        </div>
+        <div>
+            <button id="duplicarBtn">Duplicar tareas coincidentes</button>
+        </div>
+        <hr>
+        <p><em>Instrucciones:</em> Haz clic sobre una tarea para marcarla como completada. Pulsa ❌ para marcarla como completada</p>
+    </div>
+    <script src="GestorDeTareas.js"></script>
+</body>
+</html>
