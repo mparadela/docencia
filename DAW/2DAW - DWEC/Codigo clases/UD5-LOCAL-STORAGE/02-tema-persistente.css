@@ -6,13 +6,13 @@
             transition: background-color 0.3s ease, color 0.3s ease;
         }
 
-        /* 🌞 Tema claro */
+        /* Tema claro */
         .tema-claro {
             background-color: #ffffff;
             color: #333333;
         }
 
-        /* 🌙 Tema oscuro */
+        /* Tema oscuro */
         .tema-oscuro {
             background-color: #1a1a1a;
             color: #e0e0e0;
